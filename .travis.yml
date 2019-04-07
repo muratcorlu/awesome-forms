@@ -1,0 +1,12 @@
+script:
+  - mkdir dist
+  - echo "Deployment successful!" > dist/index.html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  target_branch: website
+  on:
+    branch: master
