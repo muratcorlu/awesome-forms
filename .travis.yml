@@ -1,6 +1,8 @@
-script:
-  - mkdir dist
-  - echo "Deployment successful!" > dist/index.html
+language: node_js
+node_js:
+  - "8"
+
+script: bash build.sh
 
 deploy:
   provider: pages
