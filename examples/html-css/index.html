@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Registration Form</h1>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+
+      <select name="country" required>
+        <option value="1">Country Name</option>
+      </select>
+
+      <select name="city">
+        <option value="1">City Name</option>
+      </select>
+
+      <fieldset>
+        <legend>Upload your photo</legend>
+        <input type="file" accept="image/*">
+      </fieldset>
+
+      <fieldset>
+        <legend>Pick your password</legend>
+        <input type="password" name="password" placeholder="Type a possword" required>
+        <input type="password" name="passwordConfirm" placeholder="Re-type your possword" required>
+      </fieldset>
+
+      <button>Submit</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "name": "awesome-forms-html-css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "mkdir dist && cp index.html index.css dist/."
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
