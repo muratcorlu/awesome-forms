@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && echo \"Angular Form Example\" > dist/index.html"
+    "build": "mkdir dist && echo \"Angular Form Example\" > dist/index.html"
   },
   "author": "",
   "license": "ISC"
